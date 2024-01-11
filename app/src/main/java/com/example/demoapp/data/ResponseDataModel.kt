@@ -1,0 +1,32 @@
+package com.example.demoapp.data
+
+data class ResponseDataModel(
+    val absoluteEsQueryTime: Int,
+    val allBrands: List<String>,
+    val allColors: List<String>,
+    val allCsSizes: List<String>,
+    val allDisplaySizes: List<String>,
+    val allSizes: List<String>,
+    val availableBrands: List<String>,
+    val availableCSSizes: List<String>,
+    val availableColors: List<String>,
+    val availableDisplaySizes: List<String>,
+    val availableRatings: List<Any>,
+    val availableSizes: List<String>,
+    val availableVendorSizes: List<String>,
+    val collectionId: Long,
+    val description: String,
+    val esQueryTime: Int,
+    val eventInformation: EventInformation,
+    val featuredImageSrc: Any,
+    val filteredSkus: String,
+    val filtersApplied: List<Any>,
+    val matchedProducts: List<MatchedProduct>,
+    val returnedProducts: Int,
+    val seoPageTitle: String,
+    val sortOrder: List<String>,
+    val status: Status,
+    val title: String,
+    val totalProducts: Int,
+    val totalProductsInCollection: Int
+)
